@@ -1,1 +1,55 @@
-theme: jekyll-theme-minimal
+name: Trink
+description: Staff Software Developer at Mozilla
+avatar: https://avatars2.githubusercontent.com/u/795988?v=3&s=100
+
+footer-links:
+  dribbble:
+  email:
+  facebook:
+  flickr:
+  github: trink/trink.github.io
+  instagram:
+  linkedin:
+  pinterest:
+  rss:
+  twitter: 
+  stackoverflow:
+  youtube:
+  googleplus:
+
+disqus:
+google_analytics:
+
+url: https://trink.github.io/
+baseurl: ""
+
+permalink: /:title/
+
+version: v1.2.0
+
+# Jekyll 3 now only supports Kramdown for Markdown
+kramdown:
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks
+  input: GFM
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight'
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :expanded # You might prefer to minify using :compressed
+
+# Use the following plug-ins
+gems:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - CNAME
