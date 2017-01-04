@@ -7,17 +7,17 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: trink/trink.github.io
+  github: trink
   instagram:
   linkedin:
   pinterest:
-  rss:
+  rss: true
   twitter: 
   stackoverflow:
   youtube:
   googleplus:
 
-disqus:
+disqus: trink
 google_analytics:
 
 url: https://trink.github.io/
